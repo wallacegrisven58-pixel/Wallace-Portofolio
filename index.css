@@ -484,7 +484,28 @@ img { max-width: 100%; display: block; }
   background: #111;
   color: #fff;
 }
-.footer-contact p {
-  margin: 4px 0;
-  font-size: 14px;
+
+.footer-icons {
+  display: flex;
+  justify-content: center;
+  gap: 16px;
+  margin-bottom: 20px;
+}
+
+.icon-circle {
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  background: rgba(255, 255, 255, 0.1);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 5px;
+  font-size: 18px;
+  text-decoration: none;
+  transition: background 0.3s;
+}
+
+.icon-circle:hover {
+  background: rgba(255, 255, 255, 0.25);
 }
