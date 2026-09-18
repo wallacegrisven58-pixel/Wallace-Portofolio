@@ -477,3 +477,14 @@ img { max-width: 100%; display: block; }
     text-align: center;
     margin-bottom: 10px;
 }
+
+.footer {
+  text-align: center;
+  padding: 30px 20px;
+  background: #111;
+  color: #fff;
+}
+.footer-contact p {
+  margin: 4px 0;
+  font-size: 14px;
+}
