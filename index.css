@@ -348,6 +348,29 @@ img { max-width: 100%; display: block; }
   font-size: 0.9rem;
 }
 
+.project-links .project-link {
+  padding: 8px 16px;
+  border-radius: 8px;
+  border: 2px solid var(--primary);
+  transition: all 0.25s;
+}
+
+/* tombol pertama: terisi */
+.project-links .project-link:first-child {
+  background: var(--primary);
+  color: var(--white);
+}
+.project-links .project-link:first-child:hover {
+  background: var(--primary-dark);
+  border-color: var(--primary-dark);
+}
+
+/* tombol kedua: outline */
+.project-links .project-link-alt:hover {
+  background: var(--primary);
+  color: var(--white);
+}
+
 /* ===== CONTACT ===== */
 .contact-content {
   text-align: center;
